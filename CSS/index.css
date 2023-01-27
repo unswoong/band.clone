@@ -1,0 +1,27 @@
+header {
+    min-width: 1000px;
+    height: 68px;
+    display: block;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1000px;
+    height: 68px;
+    background-color: #f6f8fa;
+}
+
+.header-title {
+
+}
+
+.bandlogo {
+    width:78px;
+    height:29px;
+    background-size: 231px; 
+    background-image: url(/IMG/bandlogo_spr.png);
+    background-position: 0 -280px;
+}
+
+
