@@ -1,27 +1,423 @@
+/* header */
 header {
+    position: relative;
     min-width: 1000px;
     height: 68px;
-    display: block;
 }
 
 .header-inner {
-    display: flex;
-    justify-content: space-between;
     min-width: 1000px;
     height: 68px;
-    background-color: #f6f8fa;
-}
-
-.header-title {
-
+    display: flex;
+    justify-content: space-between;
+    color: #f6f8fa;
 }
 
 .bandlogo {
-    width:78px;
-    height:29px;
-    background-size: 231px; 
+    margin: 17px 0 0 17px;
+    display: block;
+    position: relative;
+    width: 78px;
+    height: 29px;
     background-image: url(/IMG/bandlogo_spr.png);
-    background-position: 0 -280px;
+    background-size: 231px auto ;
+    background-position: 0 -244px;
+    
+
 }
+
+.hide { 
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+}
+
+.login-btn {    
+    font-size: 14px; 
+    font-weight: 700;   
+    color: #fafafa;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 24px;
+    margin: 10px 30px 10px 10px;
+    background-color: #21c531;
+   
+}
+
+.signup-btn {    
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;  
+    color:#222;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f6f8fa;;
+   
+}
+
+.laungage-btn {    
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;  
+    color:#222;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f6f8fa;;
+   
+}
+/* main */
+.slogan-area {
+    padding-top: 76px;
+    background-color: #f6f8fa;
+
+}
+
+.slogan-wrap {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    
+
+}
+
+.right-section {
+    margin-right: 50px;
+    width: 540px;
+    height: 694px;
+    background-image: url(/IMG/slogan_bg.jpg);
+    background-size: 540px auto;
+}
+
+.login-wrap > h2 {
+    margin-top: 122px;
+    font-size: 48px;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: -1px;
+    line-height: 1.21; 
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    margin-top: 14px;
+}
+
+.button {
+    margin-top: 18px;
+}
+
+.loginbox {
+    display: flex;
+    width: 340px;
+    height: 54px;
+    background-color: #21c531;
+    color: #f6f8fa;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+/* .signupbox {
+    display: flex;
+    width: 340px;
+    height: 54px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    font-size: 16px;
+    margin: 12px 0 0 0px;
+} */
+
+.signupbox {
+    display: block;
+    width: 340px;
+    height: 54px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 54px;
+    margin-top: 12px;
+}
+
+.findband>p{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    margin-top: 36px;
+}
+
+.wayband>p{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    margin-top: 10px;
+}
+
+.find-btn {
+    font-size: 13px;
+    font-weight: 700;
+    color: #2ecc71;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.intro-area { 
+    background-color: #f6f8fa;
+
+}
+
+.intro-area>.img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height: 540px;
+    background-image: url(/IMG/intro_bg.jpg) ;
+    background-position: -300px;
+    
+}
+
+.img-section>h3 {
+    font-size: 42px;
+    font-weight: 500;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 11%);
+    color: #fff;
+    letter-spacing: -1px;
+}
+
+.img-section>.explanation {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.63;
+}
+
+.band-list {
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+/* .band-item {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    text-align: left;
+} */
+
+.band-list .band-item {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.band-list .band-item+.band-item {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 46px;
+}
+
+#photo1 {
+    width: 100%;
+}
+
+#photo2 {
+    width: 100%;
+}
+
+#photo3 {
+    width: 100%;
+}
+
+.band-list .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #222;
+}
+
+.band-explanation {
+    line-height: 1.6;
+}
+
+.band-list .explanation {
+    font-size: 15px;
+    font-weight: 400;
+    color: #444;
+    margin-top: 4px;
+} 
+
+.howband-area .wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.how-title-area {
+    margin-top: 46px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.how-title {
+    font-size: 24px;
+    color: #222;
+    font-weight: 400;
+}
+
+.all-btn {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    line-height: 40px;   
+}
+
+#how-main-area {
+    margin: 25px 0 24px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cover-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.cover {
+    margin-right: 12px;
+}
+
+.cover-inner {
+    display: inline-block;
+    width: 93px;
+    height: 93px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.band-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.name {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color:#222;
+    padding-top: 3px;
+    line-height: 1.4;
+    z-index: 1;
+}
+
+.band-ad {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #222;
+    overflow: hidden;
+}
+
+.howmany {
+    margin-top: 4px;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+}
+
+.band-link {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #222;
+    margin-top: 7px;
+    height: 26px;
+    padding: 0 10px 0 9px;
+    border-radius: 100px;
+    line-height: 23px;
+    background-color:#fff;
+}
+
+.bold {
+    font-weight: bolder;
+}
+.appdownload-area {
+    padding: 30px 0 33px;
+}
+
+.appdownload-inner {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    line-height: 1.43;
+}
+
+.appdownload-inner .band-banner {
+    width: 70px;
+    height: 70px;
+    background-image: url(/IMG/bandlogo_spr.png);
+    background-size: 228px auto ;
+    background-position: 70px 0px;
+    margin-right: 30px;
+}
+
+.appdownload-inner .title {
+    font-weight: 400;
+    padding-top: 9px;
+    font-size: 23px;
+    color: #222;
+    
+}
+
+.smalltitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    display: block;
+}
+
+/* footer */
+.footer-inner { 
+    min-width: 1000px;
+    min-height: 120px;
+    background-color: #2a3038;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 

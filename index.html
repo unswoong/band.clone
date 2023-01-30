@@ -27,30 +27,29 @@
 <main>
     <div class="slogan-area">
         <div class="slogan-wrap">
-            <div class="img-section">
-                <figure>
-                    <img src="" alt="네이버밴드 어플이미지">
-                </figure>
-            </div>
+            <!-- back img -->
+            <div class="right-section"></div>
+
+            <!-- flex? block? -->
             <div class="login-section">
                 <div class="login-wrap">
                     <h2 class="title">
-                        모임이 쉬워진다! 
+                        모임이 쉬워진다!
                         <br>
                         우리끼리 밴드 
                     </h2>
                     <p class="text">당신의 모임도 BAND로 시작하세요.</p>
                     <div class="button">
-                        <a href="#" class="loginbox">로그인</a>
+                        <a href="#" class="loginbox"> 로그인</a>
                         <a href="#" class="signupbox">회원가입</a>
                     </div>
                     <div class="findband">
                         <p>내게 맞는 밴드를 찾으려면</p>
-                        <a href="#">밴드찾기</a>
+                        <a href="#" class="find-btn">밴드찾기</a>
                     </div>
                     <div class="wayband">
                         <p>모임별 밴드 활용법</p>
-                        <a href="#">밴드 가이드 보기</a>
+                        <a href="#" class="find-btn">밴드 가이드 보기</a>
                     </div>
                 </div>
             </div>
@@ -69,6 +68,8 @@
             <li class="band-item">
                 <figure> class="band-img">
                     <img src="" alt="밴드를즐기는사람들1">
+                <figure class="band-img">
+                    <img src="/IMG/intro1.jpg" id="photo1" alt="밴드를즐기는사람들1">
                 </figure>
 
                 <div class="band-explanation">
@@ -83,6 +84,7 @@
             <li class="band-item">
                 <figure class="band-img">
                     <img src="" alt="밴드를즐기는사람들2">
+                    <img src="/IMG/intro2.jpg" id="photo2" alt="밴드를즐기는사람들2">
                 </figure>
 
                 <div class="band-explanation">
@@ -97,6 +99,7 @@
             <li class="band-item">
                 <figure class="band-img">
                     <img src="" alt="밴드를즐기는사람들3">
+                    <img src="/IMG/intro3.jpg" id="photo3" alt="밴드를즐기는사람들3">
                 </figure>
 
                 <div class="band-explanation">
@@ -117,57 +120,56 @@
                 <h3 class="title">이런 밴드는 어때요</h3>
                 <!-- flex.bet -->
                 <a href="#">모두보기</a>
-            </div>
-            <ul>
-                <li>
-                    <a href="#">
-                        <div>
-                            <div class="howimg-area">
-                                <figure>
-                                    <img src="#" alt="밴드이미지">
-                                </figure>
-                            </div>
-                            <div class="howword-area">
-                                <div class="word">
-                                    <strong class="title">향기있는 삶</strong>
-                                    <p class="small-title">향기있는 삶을 시작하려고 합니다 아름다운 삶을 함께 나누실래요?</p>
-                                    <p class="gray">멤버1,319 · 리더 아카시아</p>
-                                </div>
-                                <div class="plus-area">
-                                    <p class="plus-word">
-                                            <span> <strong>소통</strong> </span>
-                                            <span> 밴드 더보기 </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
 
-                <li>
-                    <a href="#">
-                        <div>
-                            <div class="howimg-area">
-                                <figure>
-                                    <img src="#" alt="밴드이미지">
-                                </figure>
-                            </div>
-                            <div class="howword-area">
-                                <div class="word">
-                                    <strong class="title"> 한사인(한국화를 사랑하는 사람들)</strong>
-                                    <p class="small-title"> 한국화를 사랑하는 다수 작가님들의 멋진공간</p>
-                                    <p class="gray">멤버1,319 · 리더 ㅇㅇㅇ</p>
-                                </div>
-                                <div class="plus-area">
-                                    <p class="plus-word">
-                                            <span> <strong>한국화</strong> </span>
-                                            <span> 밴드 더보기 </span>
-                                    </p>
-                                </div>
+            <div class="how-title-area">
+                <h3 class="how-title">이런 밴드는 어때요</h3>
+                <a href="#" class="all-btn">모두보기</a>
+            </div>
+
+                <ul id="how-main-area">
+                    <li class="cover-item">
+                        <div class="band-uri">
+                            <div class="cover">
+                                <span class="cover-inner">
+                                    <img src="/IMG/b1.jpg" class="band-img" alt="밴드 이미지"93p>
+                                </span>
                             </div>
                         </div>
-                    </a>
-                </li>
+                        <div class="band-name">
+                            <strong class="name">
+                                토트넘과 K리그 팬밴드 +해외축구
+                            </strong>
+                            <p class="band-ad">토트넘과 K리그의 팬밴드이지만 축구팀 팬이시면 누구든 환영합니다!</p>
+                            <p class="howmany"> <span>멤버 596</span>
+                                <span>리더 갓쏘니</span>
+                            </p>
+                            <a href="#" class="band-link">
+                            <strong class="bold"> 축구 팬밴드 </strong> 밴드 더보기
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="cover-item">
+                        <div class="band-uri">
+                            <div class="cover">
+                                <span class="cover-inner">
+                                    <img src="/IMG/b1.jpg" class="band-img" alt="밴드 이미지"93p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="band-name">
+                            <strong class="name">
+                                토트넘과 K리그 팬밴드 +해외축구
+                            </strong>
+                            <p class="band-ad">토트넘과 K리그의 팬밴드이지만 축구팀 팬이시면 누구든 환영합니다!</p>
+                            <p class="howmany"> <span>멤버 596</span>
+                                <span>리더 갓쏘니</span>
+                            </p>
+                            <a href="#" class="band-link">
+                            <strong class="bold"> 축구 팬밴드 </strong> 밴드 더보기
+                            </a>
+                        </div>
+                    </li>
 
                 <li>
                     <a href="#">
@@ -189,35 +191,49 @@
                                             <span> 밴드 더보기 </span>
                                     </p>
                                 </div>
+                    <li class="cover-item">
+                        <div class="band-uri">
+                            <div class="cover">
+                                <span class="cover-inner">
+                                    <img src="/IMG/b1.jpg" class="band-img" alt="밴드 이미지"93p>
+                                </span>
                             </div>
                         </div>
-                    </a>
-                </li>
+                        <div class="band-name">
+                            <strong class="name">
+                                토트넘과 K리그 팬밴드 +해외축구
+                            </strong>
+                            <p class="band-ad">토트넘과 K리그의 팬밴드이지만 축구팀 팬이시면 누구든 환영합니다!</p>
+                            <p class="howmany"> <span>멤버 596</span>
+                                <span>리더 갓쏘니</span>
+                            </p>
+                            <a href="#" class="band-link">
+                            <strong class="bold"> 축구 팬밴드 </strong> 밴드 더보기
+                            </a>
+                        </div>
+                    </li>
 
-                <li>
-                    <a href="#">
-                        <div>
-                            <div class="howimg-area">
-                                <figure>
-                                    <img src="#" alt="밴드이미지">
-                                </figure>
-                            </div>
-                            <div class="howword-area">
-                                <div class="word">
-                                    <strong class="title">오늘의 크로키</strong>
-                                    <p class="small-title">크로키 좋아합니다 크로키 하는밴드</p>
-                                    <p class="gray">멤버1,319 · 리더 크로키</p>
-                                </div>
-                                <div class="plus-area">
-                                    <p class="plus-word">
-                                            <span> <strong>오늘의 크로키</strong> </span>
-                                            <span> 밴드 더보기 </span>
-                                    </p>
-                                </div>
+                    <li class="cover-item">
+                        <div class="band-uri">
+                            <div class="cover">
+                                <span class="cover-inner">
+                                    <img src="/IMG/b1.jpg" class="band-img" alt="밴드 이미지"93p>
+                                </span>
                             </div>
                         </div>
-                    </a>
-                </li>
+                        <div class="band-name">
+                            <strong class="name">
+                                토트넘과 K리그 팬밴드 +해외축구
+                            </strong>
+                            <p class="band-ad">토트넘과 K리그의 팬밴드이지만 축구팀 팬이시면 누구든 환영합니다!</p>
+                            <p class="howmany"> <span>멤버 596</span>
+                                <span>리더 갓쏘니</span>
+                            </p>
+                            <a href="#" class="band-link">
+                            <strong class="bold"> 축구 팬밴드 </strong> 밴드 더보기
+                            </a>
+                        </div>
+                    </li>
 
                 <li>
                     <a href="#">
@@ -238,137 +254,138 @@
                                             <span> <strong>제 2외국어 공부</strong> </span>밴드 더보기 
                                     </p>
                                 </div>
+                    <li class="cover-item">
+                        <div class="band-uri">
+                            <div class="cover">
+                                <span class="cover-inner">
+                                    <img src="/IMG/b1.jpg" class="band-img" alt="밴드 이미지"93p>
+                                </span>
                             </div>
                         </div>
-                    </a>
-                </li>
+                        <div class="band-name">
+                            <strong class="name">
+                                토트넘과 K리그 팬밴드 +해외축구
+                            </strong>
+                            <p class="band-ad">토트넘과 K리그의 팬밴드이지만 축구팀 팬이시면 누구든 환영합니다!</p>
+                            <p class="howmany"> <span>멤버 596</span>
+                                <span>리더 갓쏘니</span>
+                            </p>
+                            <a href="#" class="band-link">
+                            <strong class="bold"> 축구 팬밴드 </strong> 밴드 더보기
+                            </a>
+                        </div>
+                    </li>
 
-                <li>
-                    <a href="#">
-                        <div>
-                            <div class="howimg-area">
-                                <figure>
-                                    <img src="#" alt="밴드이미지">
-                                </figure>
-                            </div>
-                            <div class="howword-area">
-                                <div class="word">
-                                    <strong class="title">헬창의 삶</strong>
-                                    <p class="small-title">같이 쇠질하실래요? 쇠질해요 쇠질</p>
-                                    <p class="gray">멤버1,319 · 리더 헬창의 삶</p>
-                                </div>
-                                <div class="plus-area">
-                                    <p class="plus-word">
-                                            <span> <strong>헬창의 삶</strong> </span>
-                                            <span> 밴드 더보기 </span>
-                                    </p>
-                                </div>
+                    <li class="cover-item">
+                        <div class="band-uri">
+                            <div class="cover">
+                                <span class="cover-inner">
+                                    <img src="/IMG/b1.jpg" class="band-img" alt="밴드 이미지"93p>
+                                </span>
                             </div>
                         </div>
-                    </a>
-                </li>
+                        <div class="band-name">
+                            <strong class="name">
+                                토트넘과 K리그 팬밴드 +해외축구
+                            </strong>
+                            <p class="band-ad">토트넘과 K리그의 팬밴드이지만 축구팀 팬이시면 누구든 환영합니다!</p>
+                            <p class="howmany"> <span>멤버 596</span>
+                                <span>리더 갓쏘니</span>
+                            </p>
+                            <a href="#" class="band-link">
+                            <strong class="bold"> 축구 팬밴드 </strong> 밴드 더보기
+                            </a>
+                        </div>
+                    </li>
 
-                <li>
-                    <a href="#">
-                        <div>
-                            <div class="howimg-area">
-                                <figure>
-                                    <img src="#" alt="밴드이미지">
-                                </figure>
-                            </div>
-                            <div class="howword-area">
-                                <div class="word">
-                                    <strong class="title">수원 케이티 위즈</strong>
-                                    <p class="small-title">야구돌이들 모임 야구해요 야구</p>
-                                    <p class="gray">멤버1,319 · 리더 수원 케이티 위즈 </p>
-                                </div>
-                                <div class="plus-area">
-                                    <p class="plus-word">
-                                            <span> <strong>수원 케이티 위즈</strong> </span>
-                                            <span> 밴드 더보기 </span>
-                                    </p>
-                                </div>
+                    <li class="cover-item">
+                        <div class="band-uri">
+                            <div class="cover">
+                                <span class="cover-inner">
+                                    <img src="/IMG/b1.jpg" class="band-img" alt="밴드 이미지"93p>
+                                </span>
                             </div>
                         </div>
-                    </a>
-                </li>
+                        <div class="band-name">
+                            <strong class="name">
+                                토트넘과 K리그 팬밴드 +해외축구
+                            </strong>
+                            <p class="band-ad">토트넘과 K리그의 팬밴드이지만 축구팀 팬이시면 누구든 환영합니다!</p>
+                            <p class="howmany"> <span>멤버 596</span>
+                                <span>리더 갓쏘니</span>
+                            </p>
+                            <a href="#" class="band-link">
+                            <strong class="bold"> 축구 팬밴드 </strong> 밴드 더보기
+                            </a>
+                        </div>
+                    </li>
 
-                <li>
-                    <a href="#">
-                        <div>
-                            <div class="howimg-area">
-                                <figure>
-                                    <img src="#" alt="밴드이미지">
-                                </figure>
-                            </div>
-                            <div class="howword-area">
-                                <div class="word">
-                                    <strong class="title">열대어 조아</strong>
-                                    <p class="small-title">열대어 조아 열대어 조아</p>
-                                    <p class="gray">멤버1,319 · 리더 열대어 조아</p>
-                                </div>
-                                <div class="plus-area">
-                                    <p class="plus-word">
-                                            <span> <strong>열대어 조아</strong> </span>
-                                            <span> 밴드 더보기 </span>
-                                    </p>
-                                </div>
+                    <li class="cover-item">
+                        <div class="band-uri">
+                            <div class="cover">
+                                <span class="cover-inner">
+                                    <img src="/IMG/b1.jpg" class="band-img" alt="밴드 이미지"93p>
+                                </span>
                             </div>
                         </div>
-                    </a>
-                </li>
+                        <div class="band-name">
+                            <strong class="name">
+                                토트넘과 K리그 팬밴드 +해외축구
+                            </strong>
+                            <p class="band-ad">토트넘과 K리그의 팬밴드이지만 축구팀 팬이시면 누구든 환영합니다!</p>
+                            <p class="howmany"> <span>멤버 596</span>
+                                <span>리더 갓쏘니</span>
+                            </p>
+                            <a href="#" class="band-link">
+                            <strong class="bold"> 축구 팬밴드 </strong> 밴드 더보기
+                            </a>
+                        </div>
+                    </li>
 
-                <li>
-                    <a href="#">
-                        <div>
-                            <div class="howimg-area">
-                                <figure>
-                                    <img src="#" alt="밴드이미지">
-                                </figure>
-                            </div>
-                            <div class="howword-area">
-                                <div class="word">
-                                    <strong class="title">미드사랑</strong>
-                                    <p class="small-title">미드 보는 사람 밴드 입니다 미드봐요 미드</p>
-                                    <p class="gray">멤버1,319 · 리더 미드사랑</p>
-                                </div>
-                                <div class="plus-area">
-                                    <p class="plus-word">
-                                            <span> <strong>미드사랑</strong> </span>
-                                            <span> 밴드 더보기 </span>
-                                    </p>
-                                </div>
+                    <li class="cover-item">
+                        <div class="band-uri">
+                            <div class="cover">
+                                <span class="cover-inner">
+                                    <img src="/IMG/b1.jpg" class="band-img" alt="밴드 이미지"93p>
+                                </span>
                             </div>
                         </div>
-                    </a>
-                </li>
+                        <div class="band-name">
+                            <strong class="name">
+                                토트넘과 K리그 팬밴드 +해외축구
+                            </strong>
+                            <p class="band-ad">토트넘과 K리그의 팬밴드이지만 축구팀 팬이시면 누구든 환영합니다!</p>
+                            <p class="howmany"> <span>멤버 596</span>
+                                <span>리더 갓쏘니</span>
+                            </p>
+                            <a href="#" class="band-link">
+                            <strong class="bold"> 축구 팬밴드 </strong> 밴드 더보기
+                            </a>
+                        </div>
+                    </li>
 
-                <li>
-                    <a href="#">
-                        <div>
-                            <div class="howimg-area">
-                                <figure>
-                                    <img src="#" alt="밴드이미지">
-                                </figure>
-                            </div>
-                            <div class="howword-area">
-                                <div class="word">
-                                    <strong class="title">연필그림</strong>
-                                    <p class="small-title">연필그림 그리는 사람 밴드</p>
-                                    <p class="gray">멤버1,319 · 리더 연필그림</p>
-                                </div>
-                                <div class="plus-area">
-                                    <p class="plus-word">
-                                            <span> <strong>연필그림</strong> </span>
-                                            <span> 밴드 더보기 </span>
-                                    </p>
-                                </div>
+                    <li class="cover-item">
+                        <div class="band-uri">
+                            <div class="cover">
+                                <span class="cover-inner">
+                                    <img src="/IMG/b1.jpg" class="band-img" alt="밴드 이미지"93p>
+                                </span>
                             </div>
                         </div>
-                    </a>
-                </li>
-
-            </ul>
+                        <div class="band-name">
+                            <strong class="name">
+                                토트넘과 K리그 팬밴드 +해외축구
+                            </strong>
+                            <p class="band-ad">토트넘과 K리그의 팬밴드이지만 축구팀 팬이시면 누구든 환영합니다!</p>
+                            <p class="howmany"> <span>멤버 596</span>
+                                <span>리더 갓쏘니</span>
+                            </p>
+                            <a href="#" class="band-link">
+                            <strong class="bold"> 축구 팬밴드 </strong> 밴드 더보기
+                            </a>
+                        </div>
+                    </li>
+                </ul>
         </div>
     </div>
     
@@ -381,6 +398,12 @@
             <div>
                 <strong class="title"></strong>
                 <p class="smalltitle"></p>
+                <span class="hide">Band</span>
+            </div>
+
+            <div>
+            <strong class="title">밴드앱을 다운로드 하세요!</strong>
+                <p class="smalltitle">당신의 모임도 밴드로 시작하세요.</p>
             </div>
 
             <div class="download-banner">
